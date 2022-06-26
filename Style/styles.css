@@ -1,0 +1,91 @@
+*{
+    font-family: 'Questrial', sans-serif;
+}
+body {
+    width: 99%;
+}
+.wrapper {
+    /*border-style: dotted;
+    border-width: 1px;*/
+    max-width:  940px;
+    margin: auto;
+  
+}
+.header{
+    margin: auto;
+}
+.navigation {
+    display: flex;
+}
+.navigation h4 {
+    margin-right: auto;
+    font-size: 18px;
+}
+.navigation h4:nth-last-child(1) {
+    margin-right: 0px;
+}
+.container_AA{
+    padding-bottom: 104px;
+}
+.container_AA img{
+    width: 100%;
+}
+.container_BB{
+    display: flex;
+}
+.container_BB h1, p, h4:nth-last-child(2){
+    margin-right: auto;
+}
+.Language_radio{
+    display: flex;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-bottom: 30px;
+}
+.Language_radio h4{
+    margin-left: 0;
+}
+.container_BB p{
+    margin-top: 50px;
+    margin-right: 370px;
+}
+.container p{
+    font-size: 18px;
+}
+.container h2{
+    font-size: 34px;
+}
+.container_About_me{
+    padding-top: 90px;
+    background-color: #F6F6F6;
+    text-align: center;
+    padding-bottom: 104px;
+}
+.container_skills{
+    padding-top: 90px;
+    text-align: center;
+    padding-bottom: 104px;
+}
+.container_skills img{
+    width: 90px;
+    height: 90px;
+}
+.container_skills article{
+    margin-top: 80px;
+    display: flex;
+}
+.container_skills figure{
+    margin: auto;
+}
+.container_contacts{
+    padding-top: 90px;
+    text-align: center;
+    padding-bottom:85px;
+}
+.send_message {
+    display: inline;
+    padding:10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
