@@ -2,14 +2,13 @@
     font-family: 'Questrial', sans-serif;
 }
 body {
-    width: 99%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .wrapper {
-    /*border-style: dotted;
-    border-width: 1px;*/
     max-width:  940px;
     margin: auto;
-  
 }
 .header{
     margin: auto;
@@ -28,13 +27,16 @@ body {
     padding-bottom: 104px;
 }
 .container_AA img{
-    width: 100%;
+    margin-left:35%;
 }
 .container_BB{
     display: flex;
 }
 .container_BB h1, p, h4:nth-last-child(2){
     margin-right: auto;
+}
+.container_BB p{
+    padding-right: 10%;    
 }
 .Language_radio{
     display: flex;
@@ -45,10 +47,7 @@ body {
 .Language_radio h4{
     margin-left: 0;
 }
-.container_BB p{
-    margin-top: 50px;
-    margin-right: 370px;
-}
+
 .container p{
     font-size: 18px;
 }
@@ -73,6 +72,7 @@ body {
 .container_skills article{
     margin-top: 80px;
     display: flex;
+    flex-wrap: wrap;
 }
 .container_skills figure{
     margin: auto;
