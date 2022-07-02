@@ -12,25 +12,25 @@
         <div class="wrapper">        
             <header class="header">
                 <nav class ="navigation">
-                    <h4>Home</h4>
-                    <h4>About me</h4>
-                    <h4>Skills</h4>
-                    <h4>Portfolio</h4>
-                    <h4>Contacts</h4>
+                    <h4><a href="index.html">Home</a></h4>
+                    <h4><a href="#aboutme">About me</a></h4>
+                    <h4><a href="#skills">Skills</a></h4>
+                    <h4><a href="portfolio.html">Portfolio</a></h4>
+                    <h4><a href="#contacts">Contacts</a></h4>
                 </nav>
                 <hr class="header_hr"/>
             </header>
             <main>
                 <div class="container_AA">
-                    <div class = "container_BB">
+                    <div class = "container__BB">
                         <h1>Nikita<br/> Pesetsky</h1>
                         <p>layout designer<br/>19 years old, Lida</p>
                         <div class="Language_radio"><h4>RU</h4><h4>|ENG</h4></div>
                     </div>
-                    <img src="картинки\картинка2.png" alt="Никита Песецкий">
+                    <div class="container_AA__IMG"><img src="картинки\картинка2.png" alt="Никита Песецкий"></div>
                 </div>
                 <div class="container">
-                    <div class="container_About_me">
+                    <div class="container__About_me" id="aboutme">
                         <h2>About me</h2>
                         <p>Hi, I'm Nikita, a layout designer from Lida.<br/><br/>
                             I am interested in website layout, as well as web development.<br/><br/>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="container_skills">
+                    <div class="container__skills" id="skills">
                         <h2>Skills</h2>
                         <p>I work with</p>
                         <article>
@@ -63,10 +63,10 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="container_contacts">
+                    <div class="container__contacts" id="contacts">
                         <h2>Contacts</h2>
                         <p>Want to know more or just chat?</br> You are welcome!</p>
-                        <a href="https://vk.com/freizn"><p class="send_message">send message</p></a>
+                        <p class="send_message"><a href="https://vk.com/freizn">send message</a></p>
                     </div>
                 </div>
             </main>

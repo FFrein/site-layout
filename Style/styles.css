@@ -15,10 +15,21 @@ body {
 }
 .navigation {
     display: flex;
+    flex-wrap: wrap;
 }
 .navigation h4 {
     margin-right: auto;
     font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navigation h4 a:link{
+    text-decoration: none;
+    color: black;
+}
+.navigation h4 a:visited{
+    text-decoration: none;
+    color: black;
 }
 .navigation h4:nth-last-child(1) {
     margin-right: 0px;
@@ -26,17 +37,15 @@ body {
 .container_AA{
     padding-bottom: 104px;
 }
-.container_AA img{
-    margin-left:35%;
-}
-.container_BB{
+.container__BB{
     display: flex;
 }
-.container_BB h1, p, h4:nth-last-child(2){
+.container__BB h1, p, h4:nth-last-child(2){
     margin-right: auto;
 }
-.container_BB p{
-    padding-right: 10%;    
+.container__BB p{
+    padding-left: 5%;
+    padding-right: 15%;    
 }
 .Language_radio{
     display: flex;
@@ -47,37 +56,40 @@ body {
 .Language_radio h4{
     margin-left: 0;
 }
-
+.container_AA__IMG img{
+    display: block;
+    margin: auto;
+}
 .container p{
     font-size: 18px;
 }
 .container h2{
     font-size: 34px;
 }
-.container_About_me{
+.container__About_me{
     padding-top: 90px;
     background-color: #F6F6F6;
     text-align: center;
     padding-bottom: 104px;
 }
-.container_skills{
+.container__skills{
     padding-top: 90px;
     text-align: center;
     padding-bottom: 104px;
 }
-.container_skills img{
+.container__skills img{
     width: 90px;
     height: 90px;
 }
-.container_skills article{
+.container__skills article{
     margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
 }
-.container_skills figure{
+.container__skills figure{
     margin: auto;
 }
-.container_contacts{
+.container__contacts{
     padding-top: 90px;
     text-align: center;
     padding-bottom:85px;
@@ -85,7 +97,14 @@ body {
 .send_message {
     display: inline;
     padding:10px;
-    color: white;
     background-color: black;
     border-radius: 10px;
+}
+.send_message a:link{
+    text-decoration: none;
+    color: white;
+}
+.send_message a:visited{
+    color: white;
+    text-decoration: none;
 }

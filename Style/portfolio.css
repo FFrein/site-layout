@@ -1,0 +1,15 @@
+.container_portfolio{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+}
+.container_portfolio__block-figcaption{
+    width:35%;
+    height: 200px;
+    background-color: #242424;
+    border-radius: 5px;
+}
+.block-figcaption__box-fig{
+    margin-top: 15px;
+    text-align: center;
+}
